@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/javaeuro.jar javaeuro.jar
-ENTRYPOINT ["java","-jar","/javaeuro.jar"]
+ADD target/Euro-docker-project.jar Euro-docker-project.jar
+ENTRYPOINT ["java","-jar","/Euro-docker-project.jar"]
